@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">About me</string>
+    <string name="name">Mahmoud Kholeif</string>
+    <string name="yellow_star">yellow star</string>
+    <string name="ktabakteer">Now it’s your turn to complete this exercise.
+
+            Add a ScrollView with a TextView showing information about yourself to the layout.
+            Style the TextView with NameStyle, and add additional styling to separate the scrollable text from the edges of the screen.
+            Add some spacing between the lines using the lineSpacingMultiplier property to the TextView.
+            android:lineSpacingMultiplier="1.2"/>
+            The "Extract dimension resource" menu option is not available for this attribute, so you will have to add it to dimens.xml by hand.
+
+            If you want to start at this step, you can download this exercise code from: Step.03-Exercise-Add-ScrollView.
+
+            You will find plenty of //TODO comments to help you complete this exercise, and if you get stuck, go back and watch the video again.
+
+            Once you’re done, you can check your solution against the solution we’ve provided here: Step.03-Solution-Add-ScrollView or, using this git diff.
+
+            Check the steps below as you implement them to complete this exercise.
+
+            Task List
+
+
+            Experiment with adding an ImageView above the TextView inside the ScrollView. When you run the app, this image, unlike the star, will scroll out of view as the text scrolls up.
+
+            Hint: You will need to wrap the two scrollable views into a LinearLayout inside the ScrollView. ScrollView > LinerLayout > ImageView + TextView
+
+            Below is a skeleton code version for this challenge.
+
+            The important thing to remember is that since ScrollView can only have one child, you have to wrap that ImageView and the TextView into a LinearLayout.
+
+            There is no solution code provided for this challenge, but the skeleton code below gives you the expected view hierarchy to use.
+
+            SKELETON code of view hierarchy:
+    </string>
+    <string name="done">Done</string>
+</resources>
